@@ -1,0 +1,12 @@
+.timer-setup { min-height: 100vh; padding: 22px; color: #242424; background: #f5f6f8; }
+.timer-setup h1 { margin: 0 0 16px; font-size: 20px; }
+.timer-presets { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+.timer-presets label { justify-content: flex-start; padding: 9px 11px; border: 1px solid #d8dce2; border-radius: 8px; background: white; cursor: pointer; }
+.timer-presets input { min-width: 16px; }
+.custom-minutes { margin-top: 12px; }
+.custom-minutes input { width: 110px; }
+.timer-buttons { display: flex; justify-content: flex-end; gap: 9px; margin-top: 18px; }
+.timer-error { color: #9b2f25; }
+.timer-panel { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 4px; }
+.timer-panel strong { font-size: 14px; }
+.timer-panel time { color: #b44a2f; font-size: 25px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: 1px; }
